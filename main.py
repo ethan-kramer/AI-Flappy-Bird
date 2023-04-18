@@ -279,5 +279,5 @@ if __name__ == "__main__":
     # gives path to current directory
     local_dir = os.path.dirname(__file__)
     # finding exact path to config file
-    config_path = os.path.join(local_dir, "config-feedfoward.txt")
+    config_path = os.path.join(local_dir, "config-feedforward.txt")
     run(config_path)
